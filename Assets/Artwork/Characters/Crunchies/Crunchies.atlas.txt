@@ -1,0 +1,55 @@
+
+Crunchies.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 29
+  size: 214, 223
+  orig: 214, 223
+  offset: 0, 0
+  index: -1
+Eye_Left
+  rotate: false
+  xy: 2, 2
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+Eye_Right
+  rotate: false
+  xy: 2, 2
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+Eye_Left_Puple
+  rotate: false
+  xy: 396, 244
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Eye_Right_Puple
+  rotate: false
+  xy: 396, 244
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 218, 47
+  size: 74, 53
+  orig: 74, 53
+  offset: 0, 0
+  index: -1
+Pot
+  rotate: false
+  xy: 218, 102
+  size: 176, 150
+  orig: 176, 150
+  offset: 0, 0
+  index: -1

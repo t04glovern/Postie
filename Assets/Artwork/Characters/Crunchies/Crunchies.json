@@ -1,0 +1,139 @@
+{
+"skeleton": { "hash": "+ByIszkMbxeAGfdiYfmGJvSQll0", "spine": "3.5.46", "width": 214, "height": 330, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Pot", "parent": "root", "length": 110.16, "rotation": 89.78, "x": -1.02, "y": 1.99, "color": "00faffff" },
+	{ "name": "Body", "parent": "Pot", "length": 216.93, "rotation": 4.11, "x": 108, "y": -0.87, "color": "00faffff" },
+	{ "name": "Eye_Left", "parent": "Body", "length": 30.53, "rotation": 61.22, "x": 148.31, "y": -0.05, "color": "0f00ffff" },
+	{ "name": "Eye_Left_Puple", "parent": "Eye_Left", "length": 21.64, "rotation": -7.47, "x": 0.18, "y": 0.48, "color": "0f00ffff" },
+	{ "name": "Eye_Right", "parent": "Body", "length": 30.2, "rotation": -59.93, "x": 148.39, "y": -0.03, "color": "ff0000ff" },
+	{ "name": "Eye_Right_Puple", "parent": "Eye_Right", "length": 22.19, "rotation": 7.41, "x": 0.48, "y": 0.02, "color": "ff0000ff" },
+	{ "name": "Mouth", "parent": "Body", "length": 27.63, "rotation": -28.84, "x": 95.93, "y": -0.2, "color": "06ff00ff" }
+],
+"slots": [
+	{ "name": "Pot", "bone": "Pot", "attachment": "Pot" },
+	{ "name": "Body", "bone": "Body", "attachment": "Body" },
+	{ "name": "Mouth", "bone": "Mouth", "attachment": "Mouth" },
+	{ "name": "Eye_Left", "bone": "Eye_Left", "attachment": "Eye_Left" },
+	{ "name": "Eye_Left_Puple", "bone": "Eye_Left_Puple", "attachment": "Eye_Left_Puple" },
+	{ "name": "Eye_Right", "bone": "Eye_Right", "attachment": "Eye_Right" },
+	{ "name": "Eye_Right_Puple", "bone": "Eye_Right_Puple", "attachment": "Eye_Right_Puple" }
+],
+"skins": {
+	"default": {
+		"Body": {
+			"Body": { "x": 107.49, "y": -6.19, "rotation": -93.88, "width": 214, "height": 223 }
+		},
+		"Eye_Left": {
+			"Eye_Left": { "x": 20.09, "y": -0.26, "rotation": -155.11, "width": 28, "height": 25 }
+		},
+		"Eye_Left_Puple": {
+			"Eye_Left_Puple": { "x": 21.18, "y": -0.26, "rotation": -147.64, "width": 8, "height": 8 }
+		},
+		"Eye_Right": {
+			"Eye_Right": { "x": 20.52, "y": 0.19, "rotation": -33.95, "width": 28, "height": 25 }
+		},
+		"Eye_Right_Puple": {
+			"Eye_Right_Puple": { "x": 21.54, "y": -0.54, "rotation": -41.36, "width": 8, "height": 8 }
+		},
+		"Mouth": {
+			"Mouth": { "x": 16.83, "y": 8.72, "rotation": -65.05, "width": 74, "height": 53 }
+		},
+		"Pot": {
+			"Pot": { "x": 72.18, "y": -4.91, "rotation": -89.78, "width": 176, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"Pot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4, "angle": -0.86 },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"Mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4, "angle": 1.11 },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"Eye_Right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4, "angle": -2.51 },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"Eye_Right_Puple": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4, "angle": -4.28 },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"Eye_Left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4, "angle": 0.31 },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			},
+			"Eye_Left_Puple": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4, "angle": 6.82 },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

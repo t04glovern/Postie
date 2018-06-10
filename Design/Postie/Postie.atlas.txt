@@ -1,0 +1,111 @@
+
+Postie.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm-Left
+  rotate: false
+  xy: 2, 2
+  size: 138, 183
+  orig: 138, 183
+  offset: 0, 0
+  index: -1
+Arm-Right
+  rotate: false
+  xy: 317, 317
+  size: 138, 183
+  orig: 138, 183
+  offset: 0, 0
+  index: -1
+Eye-Left
+  rotate: false
+  xy: 459, 265
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+Eye-Pupel-Left
+  rotate: false
+  xy: 255, 57
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+Eye-Pupel-Right
+  rotate: false
+  xy: 142, 15
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+Eye-Right
+  rotate: false
+  xy: 318, 146
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+Leg_Left
+  rotate: true
+  xy: 271, 116
+  size: 69, 45
+  orig: 69, 45
+  offset: 0, 0
+  index: -1
+Leg_Lower_Left
+  rotate: false
+  xy: 425, 240
+  size: 32, 75
+  orig: 32, 75
+  offset: 0, 0
+  index: -1
+Leg_Lower_Right
+  rotate: true
+  xy: 317, 197
+  size: 32, 75
+  orig: 32, 75
+  offset: 0, 0
+  index: -1
+Leg_Right
+  rotate: true
+  xy: 457, 317
+  size: 68, 46
+  orig: 68, 46
+  offset: 0, 0
+  index: -1
+Leg_Upper_Left
+  rotate: true
+  xy: 142, 32
+  size: 40, 111
+  orig: 40, 111
+  offset: 0, 0
+  index: -1
+Leg_Upper_Right
+  rotate: false
+  xy: 457, 387
+  size: 40, 113
+  orig: 40, 113
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 317, 231
+  size: 106, 84
+  orig: 106, 84
+  offset: 0, 0
+  index: -1
+Postit
+  rotate: false
+  xy: 2, 187
+  size: 313, 313
+  orig: 313, 313
+  offset: 0, 0
+  index: -1
+TopHat
+  rotate: false
+  xy: 142, 74
+  size: 127, 111
+  orig: 127, 111
+  offset: 0, 0
+  index: -1
